@@ -54,7 +54,7 @@ const Todo = () => {
 
       <ul className="w-full max-w-md">
         {tasks.length === 0 ? (
-          <p className="text-gray-500 text-center">No tasks yet. Add one!</p>
+          <p className="text-gray-500 text-center">No tasks yet. Addiygkfkhfytfy one!</p>
         ) : (
           tasks.map((task) => (
             <li
