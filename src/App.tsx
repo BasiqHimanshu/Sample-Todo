@@ -6,7 +6,7 @@ interface Task {
   completed: boolean;
 }
 
-const App = () => {
+const Todo = () => {
   const [tasks, setTasks] = useState<Task[]>([]);
   const [input, setInput] = useState('');
 
@@ -92,4 +92,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default Todo;
